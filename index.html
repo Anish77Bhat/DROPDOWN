@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdown</title>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        #country,#city{
+            padding: 5px 7px;
+            background-color: greenyellow;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Dropdown Example</h1>
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+            <option value="">Select</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </select>
+        <label for="city">Select city</label>
+        <select name="city" id="city">
+            <option value="">Select a country first</option>
+        </select>
+    </div>
+</body>
+</html>
